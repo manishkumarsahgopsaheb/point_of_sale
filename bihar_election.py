@@ -7,10 +7,10 @@
 poll = []
 Aadhar = []
 print('\n\n***********welcome to Bihar Legislative Assembly Election*************\n\n')
-print('\t\t\t\t\t\t\t\tINSTRUCTIONS:\n\n'
-      '\t\tif voting have been completed then type any Aadhar Number which is\n'
-      '\t\talready been submitted after doing this you will get the option to \n'
-      '\t\tshow the Result\n\n')
+# print('\t\t\t\t\t\t\t\tINSTRUCTIONS:\n\n'
+#       '\t\tif voting have been completed then type any Aadhar Number which is\n'
+#       '\t\talready been submitted after doing this you will get the option to \n'
+#       '\t\tshow the Result\n\n')
 
 print('\t\t\t\t\t\t\t--------vote here---------\n\n')
 
@@ -29,7 +29,8 @@ def election():
             again = input('\t\tnow its turn of next voter:type ok to continue \n'
                           '\t\tif voting is done then type result to show the result\n\n')
             if again == 'ok':
-                election()
+#                 election()
+                  continue
             elif again == 'result':
                 break
 
